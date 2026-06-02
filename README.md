@@ -8,7 +8,7 @@ The system is designed with offline-first capabilities, utilizing a smart-switch
 ## System Components
 
 ### 1. Daily Report Automate (Client Application)
-- **Primary File:** `app4.py`
+- **Primary File:** `app3.py`
 - **Purpose:** The main interface for engineers and operational staff to log daily activities, morning plans, and evening closures.
 - **Key Features:**
   - Enter and track daily tasks with dependencies and planned times.
@@ -27,7 +27,6 @@ The system is designed with offline-first capabilities, utilizing a smart-switch
   - Executive summary PDF generation using ReportLab.
 
 ### 3. Utilities
-- **`fix_databese.py`**: Database schema management and recovery utility.
 - **`config.json`**: Application configuration allowing dynamic path resolution for the hub database.
 
 ## Architecture & Technology Stack
